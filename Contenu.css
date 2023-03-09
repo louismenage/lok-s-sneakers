@@ -39,6 +39,24 @@ h4{
 
 
 
+#chaussure{
+    border:2px solid red;
+    color:white;
+    float:left;
+}
+
+#chaussure>p{
+    float:left;
+    width:200px;
+
+    border:2px solid black;
+}
+
+#chaussure>img{
+    float:left;
+}
+
+
 /*Reset CSS*/
 *{
       margin: 0px;
