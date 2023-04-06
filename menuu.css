@@ -1,10 +1,13 @@
-body{
-    background-image: url();
+html{
+  background-color: blue;
     margin: 0px;
-    border-color: white;
+    border-color: grey;
 
 }
-/*Reset CSS*/
+
+
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -65,10 +68,12 @@ nav a:hover{
     float: left;
 }
 .texte1{
-    
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    float: left;
 }
 .boite{
     width:100%;
@@ -95,6 +100,11 @@ p {
     text-align: center;
     font-size: 20px;
     color: #666;
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 table {
@@ -126,3 +136,4 @@ td {
     color: #333;
     font-weight: bold;
 }
+
