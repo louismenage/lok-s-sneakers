@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-<<<<<<< HEAD
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,7 +11,42 @@ body {
     padding: 20px;
     text-align: center;
   }
-  
+  nav {
+    width: 100%;
+    margin: 0px auto 40px auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
   h1 {
     margin: 0;
   }
@@ -58,7 +92,7 @@ body {
   }
   
 =======
-/*Reset CSS*/
+
 *{
 =======
 html {
@@ -74,32 +108,42 @@ nav {
     background-color: white;
     position: sticky;
     top: 0px;
+=======
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-nav ul {
-    list-style-type: none;
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+>>>>>>> Stashed changes
 }
 
-nav li {
-    float: left;
-    width: 33%;
-    text-align: center;
+h1 {
+  margin: 0;
 }
 
-nav ul::after {
-    content: "";
-    display: table;
-    clear: both;
+#sneakers {
+  padding: 20px;
 }
 
-nav a {
-    display: block;
-    text-decoration: none;
-    color: black;
-    border-bottom: 2px solid transparent;
-    padding: 10px 0px;
+.sneaker {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
 }
 
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+<<<<<<< Updated upstream
 nav a:hover {
     color: red;
     border-bottom: 2px solid red;
@@ -115,5 +159,30 @@ nav a:hover {
 .conteneur {
     margin: 0px 20px;
     height: 1500px;
+}
+>>>>>>> Stashed changes
+=======
+h3 {
+  margin: 10px 0;
+}
+
+.price {
+  font-weight: bold;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 >>>>>>> Stashed changes
