@@ -67,3 +67,8 @@ header {
         height: 400px;
         object-fit: cover;
       }
+
+      .description{
+        text-align: right;
+        top: 0px;
+      }
