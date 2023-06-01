@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
     margin: 0;
     padding: 0;
   }
@@ -40,3 +40,30 @@ nav a:hover {
     color: red;
     border-bottom: 2px solid red;
 }
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+    h1 {
+        margin: 0;
+      }
+
+      #sneakers {
+        padding: 20px;
+      }
+      
+      .sneaker {
+        display: inline-block;
+        margin: 20px;
+        text-align: center;
+      }
+
+      img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+      }
