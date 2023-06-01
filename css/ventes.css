@@ -102,7 +102,7 @@ nav {
     background-color: white;
     position: sticky;
     top: 0px;
-=======
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -114,7 +114,7 @@ header {
   color: #fff;
   padding: 20px;
   text-align: center;
->>>>>>> Stashed changes
+
 }
 
 h1 {
@@ -137,13 +137,13 @@ img {
   object-fit: cover;
 }
 
-<<<<<<< Updated upstream
+
 nav a:hover {
     color: red;
     border-bottom: 2px solid red;
 }
 
-<<<<<<< Updated upstream
+
 .conteneur{
   margin: 0px 20px;
   height: 1500px;
